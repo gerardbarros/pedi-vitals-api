@@ -19,31 +19,31 @@ const ageGroup = {
     },
     'toddler': {
         'age': '1-2yrs',
-        'pulse': '70-170',
-        'respirations':'30-50',
-        'systolic': '50-70',
-        'diastolic': '20-40'
+        'pulse': '80-130',
+        'respirations':'20-30',
+        'systolic': '75-100',
+        'diastolic': '50-70'
     },
     'preSchool': {
         'age': '3-5yrs',
-        'pulse': '70-170',
-        'respirations':'30-50',
-        'systolic': '50-70',
-        'diastolic': '20-40'
+        'pulse': '80-110',
+        'respirations':'20-30',
+        'systolic': '80-110',
+        'diastolic': '50-80'
     },
     'schoolAge': {
         'age': '6-12yrs',
-        'pulse': '70-170',
-        'respirations':'30-50',
-        'systolic': '50-70',
-        'diastolic': '20-40'
+        'pulse': '75-100',
+        'respirations':'20-24',
+        'systolic': '82-120',
+        'diastolic': '50-80'
     },
     'adolescent': {
         'age': '13-18yrs',
-        'pulse': '70-170',
-        'respirations':'30-50',
-        'systolic': '50-70',
-        'diastolic': '20-40'
+        'pulse': '60-90',
+        'respirations':'16-20',
+        'systolic': '85-130',
+        'diastolic': '55-80'
     }
 }
 
