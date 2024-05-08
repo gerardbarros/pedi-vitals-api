@@ -24,14 +24,14 @@ const ageGroup = {
         'systolic': '75-100',
         'diastolic': '50-70'
     },
-    'preSchool': {
+    'preschool': {
         'age': '3-5yrs',
         'pulse': '80-110',
         'respirations':'20-30',
         'systolic': '80-110',
         'diastolic': '50-80'
     },
-    'schoolAge': {
+    'schoolage': {
         'age': '6-12yrs',
         'pulse': '75-100',
         'respirations':'20-24',
@@ -52,7 +52,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api/:ageGroup', (req, res) => {
-    const patientAge = req.params.ageGroup
+    const patientAge = req.params.ageGroup.toLowerCase()
     if(ageGroup[patientAge]){
         res.json(ageGroup[patientAge])
     } else {
